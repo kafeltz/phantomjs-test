@@ -1,3 +1,5 @@
+/* eslint no-extra-parens: 0 */
+
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
 'use strict';
 
@@ -12,7 +14,7 @@ var fn = function(fnName) {
         if (window.LOG_LEVEL >= logLevel) {
             callback.apply(console, args.slice(0, -1));
         }
-    }
+    };
 };
 
 var logger = {

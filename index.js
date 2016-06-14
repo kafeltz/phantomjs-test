@@ -6,8 +6,8 @@ var urls = require('./urls');
 var helper = require('./helper/log');
 var self = this;
 
-this.LOG_LEVEL = 1; // default
-this.ENV = 'local'; // default
+this.LOG_LEVEL = 1;
+this.ENV = 'local';
 
 system.args.forEach(function(arg) {
     if (arg.indexOf('--log-level') !== -1) {
@@ -46,7 +46,7 @@ page.onResourceRequested = function(requestData, request) {
     var re = new RegExp(allowedRequests);
 
     if (re.test(url) === false) {
-        helper.log('Not allowed request, aborting: ' + requestData['url'], helper.MID);
+        helper.log('Not allowed request, aborting: ' + requestData.url, helper.MID);
         request.abort();
     }
 };
@@ -57,9 +57,9 @@ page.onLoadFinished = function(status) {
 };
 
 page.onResourceError = function(resourceError) {
-    // did we force abort?
+    // ignore url we forcely aborted
     if (resourceError.status === null) {
-      return;
+        return;
     }
 
     helper.log('Error', helper.LOW);
@@ -70,24 +70,22 @@ page.onResourceError = function(resourceError) {
 };
 
 page.onUrlChanged = function(targetUrl) {
-    helper.log('onUrlChanged', helper.MID);
+    helper.log('onUrlChanged', targetUrl, helper.MID);
 };
 
 page.onError = function(msg, trace) {
-  var msgStack = ['ERROR: ' + msg];
+    var msgStack = ['ERROR: ' + msg];
 
-  if (trace && trace.length) {
-      msgStack.push('TRACE:');
+    if (trace && trace.length) {
+        msgStack.push('TRACE:');
 
-      trace.forEach(function(t) {
-          msgStack.push(' -> ' + t.file + ': ' + t.line + (t.function ? ' (in function "' + t.function +'")' : ''));
-      });
-  }
+        trace.forEach(function(t) {
+            msgStack.push(' -> ' + t.file + ': ' + t.line + (t.function ? ' (in function "' + t.function + '")' : ''));
+        });
+    }
 
-  helper.log(msgStack.join('\n'), helper.LOW);
+    helper.log(msgStack.join('\n'), helper.LOW);
 };
-
-var lastIndex = urls.length - 1;
 
 function getItem() {
     var url = urls.shift();
