@@ -8,12 +8,15 @@ var self = this;
 
 this.LOG_LEVEL = 1;
 this.ENV = 'local';
+this.MOBILE = false;
 
 system.args.forEach(function(arg) {
     if (arg.indexOf('--log-level') !== -1) {
         self.LOG_LEVEL = arg.split('=')[1];
     } else if (arg.indexOf('--env') !== -1) {
         self.ENV = arg.split('=')[1];
+    } else if (arg.indexOf('--mobile') !== -1) {
+        self.MOBILE = true;
     }
 });
 
@@ -30,7 +33,14 @@ switch(this.ENV) {
         break;
 }
 
-page.customHeaders = {'Authorization': 'Basic ' + btoa('eventials:w3b1n4r!@#')};
+var userAgent = this.MOBILE === true ? 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36';
+
+page.customHeaders = {
+    'User-Agent': userAgent,
+    'Authorization': 'Basic ' + btoa('eventials:w3b1n4r!@#'),
+};
+
+console.info(JSON.stringify(page.customHeaders));
 
 page.onConsoleMessage = function(msg) {
     helper.log('Console: ', msg, helper.LOW);
