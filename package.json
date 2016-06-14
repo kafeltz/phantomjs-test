@@ -1,0 +1,23 @@
+{
+  "name": "phantomjs-test",
+  "version": "1.0.0",
+  "description": "./phantomjs index.js --log-level=1 --env=staging",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/ --reporter spec -u tdd --recursive",
+    "spider": "phantomjs --ssl-protocol=any spider.js --env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lorem-ipsum": "^1.0.3",
+    "mocha": "^2.5.3",
+    "os": "^0.1.1",
+    "q": "^1.4.1"
+  }
+}

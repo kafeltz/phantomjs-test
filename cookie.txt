@@ -1,0 +1,1 @@
+{"domain":".staging.eventials.com","expires":"dom, 10 jul 2016 16:20:28 GMT","expiry":1468178428,"httponly":true,"name":"sessionid","path":"/","secure":false,"value":"42402_bmvx8w2thuq7bkdzwy7jyd5khojgpy97"}

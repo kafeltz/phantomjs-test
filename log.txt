@@ -1,0 +1,549 @@
+[authenticate.js] onLoadFinished <<<
+    status: success
+    url: https://staging.eventials.com/login/
+>>>
+
+[authenticate.js] onLoadFinished <<<
+    status: success
+    url: https://staging.eventials.com/dashboard/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com/
+    type:  Other
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com/dashboard/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com/dashboard/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com/dashboard/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//billing-history/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//billing-history/
+>>>
+
+[spider.js] page.open <<<
+    Title: Revenue Statement - Eventials
+    Url: https://staging.eventials.com//billing-history/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//captured-leads-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//captured-leads-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Leads Captured - Eventials
+    Url: https://staging.eventials.com//captured-leads-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//contact/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//contact/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://eventials.zendesk.com/account/dropboxes/20166327
+    type:  Other
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://maps.google.com.br/maps?f=q&source=s_q&hl=en&geocode=&q=Rua+Itapaiúna,+2434&aq=&sll=-14.239424,-53.186502&sspn=46.299676,79.013672&ie=UTF8&hq=&hnear=R.+Itapaiúna,+2434+-+Vila+Andrade,+São+Paulo,+05707-000&t=m&ll=-23.641222,-46.727772&spn=0.015725,0.020514&z=14&output=embed
+    type:  Other
+>>>
+
+[spider.js] page.open <<<
+    Title: Contact - Eventials
+    Url: https://staging.eventials.com//contact/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//coupons/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//coupons/
+>>>
+
+[spider.js] page.open <<<
+    Title: Coupons - Eventials
+    Url: https://staging.eventials.com//coupons/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/attending/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/attending/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/attending/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/courses/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/courses/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/courses/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/events/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/events/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/events/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/groups/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/groups/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/groups/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//dashboard/talks/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//dashboard/talks/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Dashboard - Eventials
+    Url: https://staging.eventials.com//dashboard/talks/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//engagement-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//engagement-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Engagement - Eventials
+    Url: https://staging.eventials.com//engagement-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//full-leads-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//full-leads-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Permanence - Eventials
+    Url: https://staging.eventials.com//full-leads-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//highlights/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//highlights/
+>>>
+
+[spider.js] page.open <<<
+    Title: The best webinars, talks and online courses - Eventials
+    Url: https://staging.eventials.com//highlights/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//overview/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//overview/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - General Overview - Eventials
+    Url: https://staging.eventials.com//overview/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//overview/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//overview/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - General Overview - Eventials
+    Url: https://staging.eventials.com//overview/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//payout/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//payout/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Redeeming Credits - Eventials
+    Url: https://staging.eventials.com//payout/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//plataforma-para-webinars-eventials/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//plataforma-para-webinars-eventials/
+>>>
+
+[spider.js] page.open <<<
+    Title: About the best tool for webinars - Eventials
+    Url: https://staging.eventials.com//plataforma-para-webinars-eventials/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//plataforma-webinars-e-transmissoes-online/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//plataforma-webinars-e-transmissoes-online/
+>>>
+
+[spider.js] page.open <<<
+    Title: A platform for doing webinars, courses and online training - Eventials
+    Url: https://staging.eventials.com//plataforma-webinars-e-transmissoes-online/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//precos-e-planos-webinars/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//precos-e-planos-webinars/
+>>>
+
+[spider.js] page.open <<<
+    Title: Webinars - Pricing - Eventials
+    Url: https://staging.eventials.com//precos-e-planos-webinars/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//revenue-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//revenue-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Revenue - Eventials
+    Url: https://staging.eventials.com//revenue-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-account/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-account/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - My Account - Eventials
+    Url: https://staging.eventials.com//settings-account/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-casting-password/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-casting-password/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Transmission Token - Eventials
+    Url: https://staging.eventials.com//settings-casting-password/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-integrations/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-integrations/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Integrations - Eventials
+    Url: https://staging.eventials.com//settings-integrations/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-password-change/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-password-change/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Password - Eventials
+    Url: https://staging.eventials.com//settings-password-change/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-payment-method/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-payment-method/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Billing Information - Eventials
+    Url: https://staging.eventials.com//settings-payment-method/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings-plan/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings-plan/
+>>>
+
+[spider.js] page.open <<<
+    Title: My Plan - Eventials
+    Url: https://staging.eventials.com//settings-plan/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//settings/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//settings/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - My Channel - Eventials
+    Url: https://staging.eventials.com//settings/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//software/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//software/
+>>>
+
+[spider.js] page.open <<<
+    Title: Eventials Broadcaster - Download - Eventials
+    Url: https://staging.eventials.com//software/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//subscription-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//subscription-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Registrations - Eventials
+    Url: https://staging.eventials.com//subscription-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//surveys/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//surveys/
+>>>
+
+[spider.js] page.open <<<
+    Title: Surveys - Eventials
+    Url: https://staging.eventials.com//surveys/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//talk-create/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//talk-create/
+>>>
+
+[spider.js] page.open <<<
+    Title: Schedule a Webinar - Eventials
+    Url: https://staging.eventials.com//talk-create/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//traffic-sources-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//traffic-sources-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Traffic Origins - Eventials
+    Url: https://staging.eventials.com//traffic-sources-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//transaction-history/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//transaction-history/
+>>>
+
+[spider.js] page.open <<<
+    Title: Settings - Transaction History - Eventials
+    Url: https://staging.eventials.com//transaction-history/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//views-per-talk-report/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//views-per-talk-report/
+>>>
+
+[spider.js] page.open <<<
+    Title: Reports - Views - Eventials
+    Url: https://staging.eventials.com//views-per-talk-report/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//pop/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com//pop/
+>>>
+
+[spider.js] page.open <<<
+    Title: Rashad 2 Cunningham 2 - Eventials
+    Url: https://staging.eventials.com//pop/
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com//logout/
+    type:  Other
+>>>
+
+[spider.js] onNavigationRequested <<<
+    url:  https://staging.eventials.com/
+    type:  Other
+>>>
+
+[spider.js] onUrlChanged <<<
+    https://staging.eventials.com/
+>>>
+
+[spider.js] page.open <<<
+    Title: Webinars – Plataforma para Palestras Online e Eventos - Eventials
+    Url: https://staging.eventials.com/
+>>>
+
+[done] result: Ok!
